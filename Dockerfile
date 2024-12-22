@@ -36,3 +36,4 @@ mkdir /app && \
 chown -R user:user /app
 
 USER user
+WORKDIR /app
