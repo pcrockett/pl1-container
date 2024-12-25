@@ -22,7 +22,7 @@ ci: clean build
 		--platform "${PLATFORM}" \
 		--volume .:/app \
 		"${TAG}" \
-		./test-programs/TEST001.sh
+		./test-programs/TEST.sh
 .PHONY: ci
 
 clean:

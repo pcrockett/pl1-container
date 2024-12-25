@@ -9,7 +9,7 @@ RUN --mount=target=/var/lib/apt/lists,type=cache,sharing=locked \
 rm -f /etc/apt/apt.conf.d/docker-clean && \
 apt-get update && \
 apt-get install --yes --no-install-recommends \
-    curl ca-certificates make binutils nano file
+    curl ca-certificates make binutils nano file gdb
 
 FROM base AS downloader
 
